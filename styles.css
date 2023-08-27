@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(83, 34, 152);
+    background: rgb(134,10,64);
+background: radial-gradient(circle, rgba(134,10,64,1) 0%, rgba(10,21,99,1) 63%);
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .css-tricks {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .css-tricks li {
+    background: #eee;
+    margin: 8px 0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .info {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  #css-variables {
+    color: white;
+}
+
+#flexbox-layout {
+    color: white;
+}
+
+#css-grid {
+    color:white;
+}
+
+#pseudo-elements {
+    color: white;
+}
+
+#css-transitions {
+    color: white;
+}
+
+
+/* Previous CSS code */
+
+/* New styling for the Questions & Feedback section */
+#contact-feedback {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: whitesmoke;
+    background: rgb(244,242,247);
+background: linear-gradient(0deg, rgba(244,242,247,1) 0%);
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow effect */
+    height: 11cm;
+    width: 7cm;
+    margin-left: 3cm;
+  }
+  
+  #contact-feedback h2 {
+    font-size: 1.7em;
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Extra spacing */
+  }
+  
+  #contact-feedback p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  #contact-feedback a {
+    color: #1289de; /* Blue links */
+    text-decoration: none; /* No underline */
+  }
+  
+  #contact-feedback a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  /* Existing CSS Code */
+
+/* .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  } */
+  .social-icons {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    flex-wrap: wrap; /* Wrap to next line if necessary */
+    
+   
+  }
+  
+  .social-icons a {
+    margin: 0 15px; /* Space between icons */
+  }
+  
+  .social-icons img {
+    width: 40px; /* You can set the width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  #contact-form {
+    margin-top: 20px;
+  }
+  
+  #contact-form label,
+  #contact-form input,
+  #contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
